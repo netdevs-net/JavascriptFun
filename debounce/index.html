@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lanf="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Debounce Inputs for Performance and freeing Main Thread</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="area" class="area">
+      <span class="label">real-time coords:</span>
+      <span id="rx">(initial)</span>,
+      <span id="ry">(initial)</span>
+      <br />
+      <span class="label">throttled coords:</span>
+      <span id="tx">(initial)</span>,
+      <span id="ty">(initial)</span>
+      <br />
+      <span class="label">debounced coords:</span>
+      <span id="dx">(initial)</span>,
+      <span id="dy">(initial)</span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
