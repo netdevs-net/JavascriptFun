@@ -83,16 +83,16 @@ function debounced(delay, fn) {
 //     let differenceTime = currentTime - lastTimeCalled;
 //     let delayRemaining = delay - differenceTime;
 //
-//     function invokCallback() {
+//     function invokeCallback() {
 //       callback.call(this, ...args);
 //       lastTimeCalled = Date.now();
 //     }
 //
 //     if (delayRemaining > 0) {
 //       if (timer) clearTimeout(timer);
-//       timer = setTimeout(invokCallback, delayRemaining);
+//       timer = setTimeout(invokeCallback, delayRemaining);
 //     } else {
-//       invokCallback();
+//       invokeCallback();
 //       console.log("Invoked. \n");
 //     }
 //   };
