@@ -7,7 +7,7 @@
  * @return {status} - status/response of heavy process.
  */
 
-// This is a fiddle script. Not mine. I preferred this view.
+// This is a fiddle script. Not mine. I preferred this view. My sample code is below.
 
 const area = document.getElementById("area");
 
